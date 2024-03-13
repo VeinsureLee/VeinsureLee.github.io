@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">69</span>
+            <span class="post-count">224</span>
         </span>
     </span>
 
@@ -98,6 +98,8 @@
  
     </div>
       
+    <div class="tocbot"></div>
+
 
 
 
@@ -105,15 +107,18 @@
     <div class="article-entry" itemprop="articleBody">
        
   <p>基于hexo的博客创建经验：</p>
-<p>一、主题样式：</p>
-<p>主题（Theme）网址：<a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<h1 id="一、主题样式："><a href="#一、主题样式：" class="headerlink" title="一、主题样式："></a>一、主题样式：</h1><p>主题（Theme）网址：<a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
 <p>进入网址后预览选择主题样式后的下载方式：</p>
-<p>1、复制http地址，如下：</p>
-<p><img src="/image/1.png" alt="1"></p>
-<p>2、输入：</p>
-<p>git <strong>clone</strong> <strong>复制的地址 themes</strong>&#x2F;主题名字</p>
+<h2 id="1、复制http地址，如下："><a href="#1、复制http地址，如下：" class="headerlink" title="1、复制http地址，如下："></a>1、复制http地址，如下：</h2><p><img src="/image/1.png" alt="1"></p>
+<h2 id="2、输入："><a href="#2、输入：" class="headerlink" title="2、输入："></a>2、输入：</h2><p>在你的博客文件夹下面打开git bash</p>
+<p>执行：</p>
+<p>git clone 复制的地址 themes&#x2F;主题名字</p>
 <p>如图：</p>
 <p><img src="/image/2.png" alt="2"></p>
+<h1 id="二、hexo的常用命令"><a href="#二、hexo的常用命令" class="headerlink" title="二、hexo的常用命令"></a>二、hexo的常用命令</h1><p>首先 cd 到 hexo 的安装目录，最好是用 git bash 运行以下命令</p>
+<h2 id="1、常见命令"><a href="#1、常见命令" class="headerlink" title="1、常见命令:"></a>1、常见命令:</h2><p><code>hexo new “postName” #新建文章</code><br><code>hexo new page “pageName” #新建页面</code><br><code>hexo generate #生成静态页面至public目录</code><br><code>hexo server #开启预览访问端口（默认端口4000，&#39;ctrl + c’关闭server）</code><br><code>hexo deploy #部署到GitHub</code><br><code>hexo help # 查看帮助</code><br><code>hexo version #查看Hexo的版本</code></p>
+<h2 id="2、缩写："><a href="#2、缩写：" class="headerlink" title="2、缩写："></a>2、缩写：</h2><p><code>hexo n == hexo new</code><br><code>hexo g == hexo generate</code><br><code>hexo s == hexo server</code><br><code>hexo d == hexo deploy</code></p>
+<h2 id="3、组合命令："><a href="#3、组合命令：" class="headerlink" title="3、组合命令："></a>3、组合命令：</h2><p><code>hexo s -g #生成并本地预览</code><br><code>hexo d -g #生成并上传</code></p>
  
       <!-- reward -->
       
